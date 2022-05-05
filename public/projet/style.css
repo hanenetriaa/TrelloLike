@@ -1,0 +1,81 @@
+.logo {
+    height: 10vh;
+}
+
+.perso1 {
+    width: 60vh;
+    margin-top: -13%;
+    margin-left: -12%;
+}
+
+.container-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.div-btn-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn-create-list {
+    background-color: #fff24c;
+    border: #fff24c solid 1px;
+    color: black;
+}
+
+.btn-edit-list {
+    background-color: #f5e317;
+    border: #fff24c solid 1px;
+    color: black;
+}
+
+.task {
+    display: flex;
+    gap: 10px;
+}
+
+.liste_tasks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-btn-delet {
+    background-color: white;
+    border: white;
+    color: red;
+}
+body {
+    background: rgb(239, 239, 137);
+}
+
+.column {
+    background: white;
+    min-height: 9vh;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.item {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-projet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
