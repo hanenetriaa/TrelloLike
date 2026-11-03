@@ -25,11 +25,7 @@ Une application web inspirée de **Trello** pour organiser des projets en **list
 
 Application **MVC Laravel** classique : contrôleurs, modèles Eloquent et vues Blade.
 
-```
-Utilisateur ─┬─< Projet ──< Liste ──< Tâche
-             │      │
-             └─< Invitation >─ (administrateur, invité, projet, statut : en attente / acceptée / refusée)
-```
+![Modèle de données : utilisateurs, projets, listes, tâches et invitations](docs/modele-donnees.png)
 
 | Couche | Contenu |
 |---|---|
