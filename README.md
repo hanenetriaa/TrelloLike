@@ -1,6 +1,6 @@
 <p align="center"><img src="public/images/logo-trello-like.png" width="220" alt="TrelloLike"></p>
 
-# 📋 TrelloLike — Gestionnaire de projets collaboratif en Kanban
+# TrelloLike : gestionnaire de projets en Kanban
 
 ![PHP](https://img.shields.io/badge/PHP-8-777BB4?logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-8-FF2D20?logo=laravel&logoColor=white)
@@ -10,7 +10,7 @@
 Une application web inspirée de **Trello** pour organiser des projets en **listes et tâches**, et
 **travailler à plusieurs** grâce à un système d'invitations.
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 | Domaine | Ce que l'on peut faire |
 |---|---|
@@ -21,7 +21,7 @@ Une application web inspirée de **Trello** pour organiser des projets en **list
 | **Collaboration** | Inviter un utilisateur sur un projet par e-mail ; l'invité **accepte ou refuse** ; le propriétaire voit les réponses |
 | **Contrôle d'accès** | Seuls le propriétaire et les invités ayant accepté accèdent aux listes d'un projet |
 
-## 🏗️ Architecture
+## Architecture
 
 Application **MVC Laravel** classique : contrôleurs, modèles Eloquent et vues Blade.
 
@@ -35,7 +35,7 @@ Application **MVC Laravel** classique : contrôleurs, modèles Eloquent et vues 
 | `database/migrations` | Schéma des tables projets, listes, tâches et invitations |
 | `resources/views` | Vues Blade : tableau de bord, vue Kanban d'un projet, invitations |
 
-## 🚀 Lancer le projet
+## Lancer le projet
 
 Prérequis : PHP 8, Composer, MySQL (ou MariaDB), Node.js.
 
@@ -48,14 +48,14 @@ npm install && npm run dev
 php artisan serve             # http://localhost:8000
 ```
 
-## 📌 Pistes d'amélioration
+## Pistes d'amélioration
 
 - Glisser-déposer des tâches entre les listes
 - Ordre des tâches et dates d'échéance
-- Clés étrangères avec suppression en cascade (liste → tâches)
+- Clés étrangères avec suppression en cascade (liste vers tâches)
 - Tests fonctionnels (PHPUnit) sur le contrôle d'accès
 
-## 🧠 Compétences mobilisées
+## Compétences mobilisées
 
 PHP / Laravel · Architecture MVC · Eloquent ORM et relations · Authentification et middleware ·
 Gestion des droits d'accès · Blade · Modélisation de base de données
